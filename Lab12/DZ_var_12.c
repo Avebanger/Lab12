@@ -33,7 +33,7 @@ int main()
 {
 	setlocale(LC_ALL, "RUS");
 
-	char file_name[20] = "tabulation.txt";
+	char file_name[20] = "temp.txt";
 	FILE* out;
 	printf("создание файла\n");
 	if ((out = fopen(file_name, "w")) == NULL)
